@@ -1,0 +1,75 @@
+.App {
+    text-align: center;
+}
+
+.operand_button {
+    margin: 5px !important;
+    font-size: 15px !important;
+    background: aqua !important;
+    color: black !important;
+}
+
+.input-field {
+    background-color: white;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.MuiSelect-select {
+    background-color: wheat;
+    height: 2rem;
+    width: 85px;
+}
+
+.MuiSelect-box {
+    margin-left: 10px;
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 4px;
+    float: right;
+}
+
+h3 {
+    margin: 5px;
+    display: inline;
+}
+
+p {
+    margin: 5px;
+}
+.select_stack {
+    display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
