@@ -4,6 +4,8 @@ NOTE: Due to lack of time, the create stack button could not be created.
 Therefore, it is mandatory to create a stack using the following service:
 http://localhost:8080/rpn/new_stack_as_get
 
+Also, error handling could not be implemented due to lack of time
+
 ## Available Scripts
 
 In the project directory, you can run:
